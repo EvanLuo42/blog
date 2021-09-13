@@ -6,7 +6,7 @@
   <link href="https://www.phakel.cn/atom.xml" rel="self"/>
   
   <link href="https://www.phakel.cn/"/>
-  <updated>2021-09-13T06:34:32.394Z</updated>
+  <updated>2021-09-13T07:39:35.641Z</updated>
   <id>https://www.phakel.cn/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo踩坑第三话</title>
+    <link href="https://www.phakel.cn/2021-09-13/1653f320/"/>
+    <id>https://www.phakel.cn/2021-09-13/1653f320/</id>
+    <published>2021-09-13T07:34:15.000Z</published>
+    <updated>2021-09-13T07:39:35.641Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天本来想把珍藏的京吹原画集发上来，结果发现文件很大，git 会报错，我就放弃了这个想法。但在上传下一篇文章的时候，git 又卡住了，我明明已经删除了大文件为什么还会卡住。在 Google 上搜索无果。后来看见 log写着：&lt;/p&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="Tech" scheme="https://www.phakel.cn/categories/Tech/"/>
+    
+    
+    <category term="Tech" scheme="https://www.phakel.cn/tags/Tech/"/>
+    
+    <category term="Hexo" scheme="https://www.phakel.cn/tags/Hexo/"/>
+    
+    <category term="Icarus" scheme="https://www.phakel.cn/tags/Icarus/"/>
+    
+  </entry>
   
   <entry>
     <title>Jetpack Compose Typography配置错误解决</title>

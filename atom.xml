@@ -6,7 +6,7 @@
   <link href="https://www.phakel.cn/atom.xml" rel="self"/>
   
   <link href="https://www.phakel.cn/"/>
-  <updated>2021-09-13T07:39:35.641Z</updated>
+  <updated>2021-09-13T07:40:45.323Z</updated>
   <id>https://www.phakel.cn/</id>
   
   <author>
@@ -21,17 +21,10 @@
     <link href="https://www.phakel.cn/2021-09-13/1653f320/"/>
     <id>https://www.phakel.cn/2021-09-13/1653f320/</id>
     <published>2021-09-13T07:34:15.000Z</published>
-    <updated>2021-09-13T07:39:35.641Z</updated>
+    <updated>2021-09-13T07:40:45.323Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;今天本来想把珍藏的京吹原画集发上来，结果发现文件很大，git 会报错，我就放弃了这个想法。但在上传下一篇文章的时候，git 又卡住了，我明明已经删除了大文件为什么还会卡住。在 Google 上搜索无果。后来看见 log写着：&lt;/p&gt;
-&lt;figure</summary>
-        
-      
+    <summary type="html">&lt;p&gt;今天本来想把珍藏的京吹原画集发上来，结果发现文件很大，git 会报错，我就放弃了这个想法。但在上传下一篇文章的时候，git 又卡住了，我明明已经删除了大文件为什么还会卡住。在 Google 上搜索无果。后来看见 log写着：&lt;/p&gt;</summary>
     
     
     

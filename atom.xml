@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>EvanLuo42&#39;s Blog</title>
   <icon>https://www.phakel.cn/icon.png</icon>
-  
+  <subtitle>记录生（sha）活（dou）点（hui）滴（xie）</subtitle>
   <link href="https://www.phakel.cn/atom.xml" rel="self"/>
   
   <link href="https://www.phakel.cn/"/>
@@ -31,11 +31,11 @@
     <category term="Tech" scheme="https://www.phakel.cn/categories/Tech/"/>
     
     
-    <category term="Tech" scheme="https://www.phakel.cn/tags/Tech/"/>
-    
     <category term="Hexo" scheme="https://www.phakel.cn/tags/Hexo/"/>
     
     <category term="Icarus" scheme="https://www.phakel.cn/tags/Icarus/"/>
+    
+    <category term="Tech" scheme="https://www.phakel.cn/tags/Tech/"/>
     
   </entry>
   

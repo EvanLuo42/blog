@@ -148,18 +148,11 @@
     <link href="https://www.phakel.cn/2021-09-04/6b5bbcaa/"/>
     <id>https://www.phakel.cn/2021-09-04/6b5bbcaa/</id>
     <published>2021-09-04T08:03:05.000Z</published>
-    <updated>2021-09-14T12:00:53.507Z</updated>
+    <updated>2021-09-14T12:01:59.660Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;p&gt;前几天把原来的服务器格式化了，忘记Typecho还部署在上面。然后就想试下一直没整过的Hexo。&lt;/p&gt;
-&lt;p&gt;结果一开始就出现了问题：装载了 Icarus 插件之后没有正常显示 Theme。进入index.html显示如下代码。&lt;/p&gt;
-&lt;figure</summary>
-        
-      
+&lt;p&gt;结果一开始就出现了问题：装载了 Icarus 插件之后没有正常显示 Theme。进入index.html显示如下代码：&lt;/p&gt;</summary>
     
     
     

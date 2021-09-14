@@ -67,20 +67,6 @@
 
   
   <url>
-    <loc>https://www.phakel.cn/tags/Hexo/</loc>
-    <lastmod>2021-09-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.phakel.cn/tags/Icarus/</loc>
-    <lastmod>2021-09-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.phakel.cn/tags/Tech/</loc>
     <lastmod>2021-09-14</lastmod>
     <changefreq>daily</changefreq>
@@ -116,14 +102,14 @@
   </url>
   
   <url>
-    <loc>https://www.phakel.cn/tags/Music/</loc>
+    <loc>https://www.phakel.cn/tags/Hexo/</loc>
     <lastmod>2021-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.phakel.cn/tags/Sound-Euphonium/</loc>
+    <loc>https://www.phakel.cn/tags/Icarus/</loc>
     <lastmod>2021-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -143,6 +129,20 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://www.phakel.cn/tags/Music/</loc>
+    <lastmod>2021-09-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.phakel.cn/tags/Sound-Euphonium/</loc>
+    <lastmod>2021-09-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -153,14 +153,14 @@
   </url>
   
   <url>
-    <loc>https://www.phakel.cn/categories/Music/</loc>
+    <loc>https://www.phakel.cn/categories/Math/</loc>
     <lastmod>2021-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.phakel.cn/categories/Math/</loc>
+    <loc>https://www.phakel.cn/categories/Music/</loc>
     <lastmod>2021-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

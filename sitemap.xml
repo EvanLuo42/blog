@@ -81,34 +81,6 @@
   </url>
   
   <url>
-    <loc>https://www.phakel.cn/tags/Music/</loc>
-    <lastmod>2021-09-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.phakel.cn/tags/Sound-Euphonium/</loc>
-    <lastmod>2021-09-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.phakel.cn/tags/Math/</loc>
-    <lastmod>2021-09-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.phakel.cn/tags/Course/</loc>
-    <lastmod>2021-09-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.phakel.cn/tags/Tech/</loc>
     <lastmod>2021-09-25</lastmod>
     <changefreq>daily</changefreq>
@@ -143,6 +115,34 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://www.phakel.cn/tags/Math/</loc>
+    <lastmod>2021-09-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.phakel.cn/tags/Course/</loc>
+    <lastmod>2021-09-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.phakel.cn/tags/Music/</loc>
+    <lastmod>2021-09-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.phakel.cn/tags/Sound-Euphonium/</loc>
+    <lastmod>2021-09-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -153,14 +153,14 @@
   </url>
   
   <url>
-    <loc>https://www.phakel.cn/categories/Music/</loc>
+    <loc>https://www.phakel.cn/categories/Math/</loc>
     <lastmod>2021-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.phakel.cn/categories/Math/</loc>
+    <loc>https://www.phakel.cn/categories/Music/</loc>
     <lastmod>2021-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

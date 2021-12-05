@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>EvanLuo42&#39;s Blog</title>
+  <icon>https://www.phakel.cn/icon.png</icon>
+  <subtitle>记录生（sha）活（dou）点（hui）滴（xie）</subtitle>
+  <link href="https://www.phakel.cn/atom.xml" rel="self"/>
+  
+  <link href="https://www.phakel.cn/"/>
+  <updated>2021-09-13T07:40:45.323Z</updated>
+  <id>https://www.phakel.cn/</id>
+  
+  <author>
+    <name>EvanLuo42</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo踩坑第三话</title>
+    <link href="https://www.phakel.cn/2021-09-13/1653f320/"/>
+    <id>https://www.phakel.cn/2021-09-13/1653f320/</id>
+    <published>2021-09-13T07:34:15.000Z</published>
+    <updated>2021-09-13T07:40:45.323Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天本来想把珍藏的京吹原画集发上来，结果发现文件很大，git 会报错，我就放弃了这个想法。但在上传下一篇文章的时候，git 又卡住了，我明明已经删除了大文件为什么还会卡住。在 Google 上搜索无果。后来看见 log写着：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://www.phakel.cn/categories/Tech/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.phakel.cn/tags/Hexo/"/>
+    
+    <category term="Icarus" scheme="https://www.phakel.cn/tags/Icarus/"/>
+    
+    <category term="Tech" scheme="https://www.phakel.cn/tags/Tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Jetpack Compose Typography配置错误解决</title>
+    <link href="https://www.phakel.cn/2021-09-13/f64b4108/"/>
+    <id>https://www.phakel.cn/2021-09-13/f64b4108/</id>
+    <published>2021-09-13T06:24:02.000Z</published>
+    <updated>2021-09-13T06:34:32.394Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;前些日子 Jetpack Compose 稳定版还没出的时候，我在使用过程中碰到了各种问题，其中就有在设置 Typography 后出现如下报错：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://www.phakel.cn/categories/Tech/"/>
+    
+    
+    <category term="Tech" scheme="https://www.phakel.cn/tags/Tech/"/>
+    
+    <category term="Jetpack Compose" scheme="https://www.phakel.cn/tags/Jetpack-Compose/"/>
+    
+    <category term="UI" scheme="https://www.phakel.cn/tags/UI/"/>
+    
+    <category term="Kotlin" scheme="https://www.phakel.cn/tags/Kotlin/"/>
+    
+    <category term="Androids" scheme="https://www.phakel.cn/tags/Androids/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>梅赛定理证明</title>
+    <link href="https://www.phakel.cn/2021-09-09/a635bcf8/"/>
+    <id>https://www.phakel.cn/2021-09-09/a635bcf8/</id>
+    <published>2021-09-09T12:21:35.000Z</published>
+    <updated>2021-09-12T14:02:05.658Z</updated>
+    
+    
+    <summary type="html">梅赛定理证明</summary>
+    
+    
+    
+    <category term="Math" scheme="https://www.phakel.cn/categories/Math/"/>
+    
+    
+    <category term="Math" scheme="https://www.phakel.cn/tags/Math/"/>
+    
+    <category term="Course" scheme="https://www.phakel.cn/tags/Course/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记人生中第一次编铜管合奏</title>
+    <link href="https://www.phakel.cn/2021-09-05/d8eaee3a/"/>
+    <id>https://www.phakel.cn/2021-09-05/d8eaee3a/</id>
+    <published>2021-09-05T13:00:35.000Z</published>
+    <updated>2021-09-13T07:08:41.858Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;暑假大约七月中旬的时候突发奇想想要把《Sound! Euphonium》的明日香经典solo改编成铜管合奏。本来觉得一周之内就能完成的，结果硬生生拖到了开学。新人编曲，请多多关照。&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Music" scheme="https://www.phakel.cn/categories/Music/"/>
+    
+    
+    <category term="Music" scheme="https://www.phakel.cn/tags/Music/"/>
+    
+    <category term="Sound!Euphonium" scheme="https://www.phakel.cn/tags/Sound-Euphonium/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo踩坑第二话</title>
+    <link href="https://www.phakel.cn/2021-09-04/5b4d5072/"/>
+    <id>https://www.phakel.cn/2021-09-04/5b4d5072/</id>
+    <published>2021-09-04T09:09:00.000Z</published>
+    <updated>2021-09-12T14:05:22.504Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;刚开始初始化的时候在根目录下生成了 img 目录，我就一直往里面丢图片。结果发现生成的时候没有进到 public 里面。&lt;/p&gt;
+&lt;p&gt;解决方法：把 img</summary>
+        
+      
+    
+    
+    
+    <category term="Tech" scheme="https://www.phakel.cn/categories/Tech/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.phakel.cn/tags/Hexo/"/>
+    
+    <category term="Icarus" scheme="https://www.phakel.cn/tags/Icarus/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo踩坑第一话</title>
+    <link href="https://www.phakel.cn/2021-09-04/6b5bbcaa/"/>
+    <id>https://www.phakel.cn/2021-09-04/6b5bbcaa/</id>
+    <published>2021-09-04T08:03:05.000Z</published>
+    <updated>2021-09-14T12:01:59.660Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;前几天把原来的服务器格式化了，忘记Typecho还部署在上面。然后就想试下一直没整过的Hexo。&lt;/p&gt;
+&lt;p&gt;结果一开始就出现了问题：装载了 Icarus 插件之后没有正常显示 Theme。进入index.html显示如下代码：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://www.phakel.cn/categories/Tech/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.phakel.cn/tags/Hexo/"/>
+    
+    <category term="Icarus" scheme="https://www.phakel.cn/tags/Icarus/"/>
+    
+  </entry>
+  
+</feed>

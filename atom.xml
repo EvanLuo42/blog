@@ -6,7 +6,7 @@
   <link href="https://www.phakel.cn/atom.xml" rel="self"/>
   
   <link href="https://www.phakel.cn/"/>
-  <updated>2021-12-05T12:29:28.415Z</updated>
+  <updated>2021-12-05T12:39:48.128Z</updated>
   <id>https://www.phakel.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>直线与圆的位置关系</title>
+    <link href="https://www.phakel.cn/2021-12-05/8684c3cf/"/>
+    <id>https://www.phakel.cn/2021-12-05/8684c3cf/</id>
+    <published>2021-12-05T12:36:19.000Z</published>
+    <updated>2021-12-05T12:39:48.128Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;直线与圆的位置关系&quot;&gt;&lt;a href=&quot;#直线与圆的位置关系&quot; class=&quot;headerlink&quot; title=&quot;直线与圆的位置关系&quot;&gt;&lt;/a&gt;直线与圆的位置关系&lt;/h2&gt;&lt;h3 id=&quot;一-基本关系&quot;&gt;&lt;a href=&quot;#一-基本关系&quot; class=&quot;headerlink&quot; title=&quot;一.基本关系&quot;&gt;&lt;/a&gt;一.基本关系&lt;/h3&gt;&lt;p&gt;设 $\displaystyle \odot{O}$ 的半径为 $\displaystyle r$ ，圆心 $\displaystyle O$ 到直线 $\displaystyle l$ 的距离为 $\displaystyle d$ ，则直线与圆的位置关系如下表：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Math" scheme="https://www.phakel.cn/categories/Math/"/>
+    
+    
+    <category term="Math" scheme="https://www.phakel.cn/tags/Math/"/>
+    
+    <category term="Course" scheme="https://www.phakel.cn/tags/Course/"/>
+    
+  </entry>
   
   <entry>
     <title>圆的基本认识</title>

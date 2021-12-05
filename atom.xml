@@ -6,7 +6,7 @@
   <link href="https://www.phakel.cn/atom.xml" rel="self"/>
   
   <link href="https://www.phakel.cn/"/>
-  <updated>2021-09-13T07:40:45.323Z</updated>
+  <updated>2021-12-05T12:29:28.415Z</updated>
   <id>https://www.phakel.cn/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>圆的基本认识</title>
+    <link href="https://www.phakel.cn/2021-12-05/f2cc7947/"/>
+    <id>https://www.phakel.cn/2021-12-05/f2cc7947/</id>
+    <published>2021-12-05T12:17:10.000Z</published>
+    <updated>2021-12-05T12:29:28.415Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;圆的基本知识&quot;&gt;&lt;a href=&quot;#圆的基本知识&quot; class=&quot;headerlink&quot; title=&quot;圆的基本知识&quot;&gt;&lt;/a&gt;圆的基本知识&lt;/h2&gt;&lt;h3 id=&quot;一-圆的基本性质&quot;&gt;&lt;a href=&quot;#一-圆的基本性质&quot; class=&quot;headerlink&quot; title=&quot;一.圆的基本性质&quot;&gt;&lt;/a&gt;一.圆的基本性质&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;圆的定义&lt;ul&gt;
+&lt;li&gt;集合定义：平面上到定点的距离等于定长的所有点组成的图形叫做圆。&lt;/li&gt;
+&lt;li&gt;轨迹定义：平面上一动点以一定点为中心，一定长为距离运动一周的轨迹称为圆。&lt;/li&gt;
+&lt;li&gt;集合定义：到定点的距离等于定长的电叫做圆。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="Math" scheme="https://www.phakel.cn/categories/Math/"/>
+    
+    
+    <category term="Math" scheme="https://www.phakel.cn/tags/Math/"/>
+    
+    <category term="Course" scheme="https://www.phakel.cn/tags/Course/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo踩坑第三话</title>

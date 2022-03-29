@@ -6,7 +6,7 @@
   <link href="https://www.phakel.cn/atom.xml" rel="self"/>
   
   <link href="https://www.phakel.cn/"/>
-  <updated>2022-03-29T03:01:59.644Z</updated>
+  <updated>2022-03-29T03:04:01.951Z</updated>
   <id>https://www.phakel.cn/</id>
   
   <author>
@@ -21,16 +21,10 @@
     <link href="https://www.phakel.cn/2022-03-29/8b937cbb/"/>
     <id>https://www.phakel.cn/2022-03-29/8b937cbb/</id>
     <published>2022-03-29T02:38:10.000Z</published>
-    <updated>2022-03-29T03:01:59.644Z</updated>
+    <updated>2022-03-29T03:04:01.951Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;最近在写 &lt;em&gt;Desert&lt;/em&gt; 这个音游项目，为了不占用服务器带宽，我选择使用 COS 而不是存储在服务器本地。我的设计是不开放单独的上传接口，只让管理员登陆 &lt;strong&gt;Admin Site&lt;/strong&gt; 手动创建数据库 record</summary>
-        
-      
+    <summary type="html">&lt;p&gt;最近在写 &lt;em&gt;Desert&lt;/em&gt; 这个音游项目，为了不占用服务器带宽，我选择使用 COS 而不是存储在服务器本地。我的设计是不开放单独的上传接口，只让管理员登陆 &lt;strong&gt;Admin Site&lt;/strong&gt; 手动创建数据库 record 并上传曲目文件。这么设计的话我们就需要使 &lt;strong&gt;Admin Site&lt;/strong&gt; 的文件上传组件能被我们实现，然而这样很困难，而且不符合规范。&lt;/p&gt;</summary>
     
     
     
@@ -50,7 +44,7 @@
     <link href="https://www.phakel.cn/2022-01-14/4b60da34/"/>
     <id>https://www.phakel.cn/2022-01-14/4b60da34/</id>
     <published>2022-01-14T10:27:55.000Z</published>
-    <updated>2022-01-14T11:38:06.859Z</updated>
+    <updated>2022-03-29T03:02:14.263Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-序言&quot;&gt;&lt;a href=&quot;#1-序言&quot; class=&quot;headerlink&quot; title=&quot;1.序言&quot;&gt;&lt;/a&gt;1.序言&lt;/h2&gt;&lt;p&gt;因为马上要上高中了，所以一年前的这个时候换了一套 Apple 全家桶。这一年中与 Apple 的产品度过了一段愉快的时光，其中有满意也有不满。这篇文章将分享我使用 Apple 全家桶的经历。&lt;/p&gt;</summary>

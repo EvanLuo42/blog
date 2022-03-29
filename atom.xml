@@ -6,7 +6,7 @@
   <link href="https://www.phakel.cn/atom.xml" rel="self"/>
   
   <link href="https://www.phakel.cn/"/>
-  <updated>2022-01-14T10:56:32.517Z</updated>
+  <updated>2022-03-29T03:01:59.644Z</updated>
   <id>https://www.phakel.cn/</id>
   
   <author>
@@ -17,14 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Django 连接腾讯云COS</title>
+    <link href="https://www.phakel.cn/2022-03-29/8b937cbb/"/>
+    <id>https://www.phakel.cn/2022-03-29/8b937cbb/</id>
+    <published>2022-03-29T02:38:10.000Z</published>
+    <updated>2022-03-29T03:01:59.644Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近在写 &lt;em&gt;Desert&lt;/em&gt; 这个音游项目，为了不占用服务器带宽，我选择使用 COS 而不是存储在服务器本地。我的设计是不开放单独的上传接口，只让管理员登陆 &lt;strong&gt;Admin Site&lt;/strong&gt; 手动创建数据库 record</summary>
+        
+      
+    
+    
+    
+    <category term="Tech" scheme="https://www.phakel.cn/categories/Tech/"/>
+    
+    
+    <category term="network" scheme="https://www.phakel.cn/tags/network/"/>
+    
+    <category term="django" scheme="https://www.phakel.cn/tags/django/"/>
+    
+    <category term="python" scheme="https://www.phakel.cn/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关于我使用Apple的这一年</title>
     <link href="https://www.phakel.cn/2022-01-14/4b60da34/"/>
     <id>https://www.phakel.cn/2022-01-14/4b60da34/</id>
     <published>2022-01-14T10:27:55.000Z</published>
-    <updated>2022-01-14T10:56:32.517Z</updated>
+    <updated>2022-01-14T11:38:06.859Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;序言&quot;&gt;&lt;a href=&quot;#序言&quot; class=&quot;headerlink&quot; title=&quot;序言&quot;&gt;&lt;/a&gt;序言&lt;/h2&gt;&lt;p&gt;因为马上要上高中了，所以一年前的这个时候换了一套 Apple 全家桶。这一年中与 Apple 的产品度过了一段愉快的时光，其中有满意也有不满。这篇文章将分享我使用 Apple 全家桶的经历。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-序言&quot;&gt;&lt;a href=&quot;#1-序言&quot; class=&quot;headerlink&quot; title=&quot;1.序言&quot;&gt;&lt;/a&gt;1.序言&lt;/h2&gt;&lt;p&gt;因为马上要上高中了，所以一年前的这个时候换了一套 Apple 全家桶。这一年中与 Apple 的产品度过了一段愉快的时光，其中有满意也有不满。这篇文章将分享我使用 Apple 全家桶的经历。&lt;/p&gt;</summary>
     
     
     

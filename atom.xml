@@ -6,7 +6,7 @@
   <link href="https://www.phakel.cn/atom.xml" rel="self"/>
   
   <link href="https://www.phakel.cn/"/>
-  <updated>2022-03-29T03:04:01.951Z</updated>
+  <updated>2022-04-06T02:37:49.438Z</updated>
   <id>https://www.phakel.cn/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Django 2FA绕过</title>
+    <link href="https://www.phakel.cn/2022-04-06/5a48ee73/"/>
+    <id>https://www.phakel.cn/2022-04-06/5a48ee73/</id>
+    <published>2022-04-06T02:31:12.000Z</published>
+    <updated>2022-04-06T02:37:49.438Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;为了保证后台安全，我对 Django 的 Admin Site 启用了 2FA，详细步骤不作叙述。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://www.phakel.cn/categories/Tech/"/>
+    
+    
+    <category term="django" scheme="https://www.phakel.cn/tags/django/"/>
+    
+  </entry>
   
   <entry>
     <title>Django 连接腾讯云COS</title>

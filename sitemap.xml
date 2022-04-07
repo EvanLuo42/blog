@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.phakel.cn/2022-04-07/abae205/</loc>
+    
+    <lastmod>2022-04-07</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.phakel.cn/2022-04-06/5a48ee73/</loc>
     
     <lastmod>2022-04-06</lastmod>
@@ -39,7 +46,7 @@
 
   <url>
     <loc>https://www.phakel.cn/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -47,56 +54,56 @@
   
   <url>
     <loc>https://www.phakel.cn/tags/apple/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.phakel.cn/tags/tech/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.phakel.cn/tags/iphone/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.phakel.cn/tags/ipad/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.phakel.cn/tags/macbook/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.phakel.cn/tags/network/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.phakel.cn/tags/django/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.phakel.cn/tags/python/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -105,7 +112,7 @@
   
   <url>
     <loc>https://www.phakel.cn/categories/Tech/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

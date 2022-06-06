@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>EvanLuo42&#39;s Blog</title>
-  <icon>https://www.phakel.cn/icon.png</icon>
+  <icon>https://www.phakel.com/icon.png</icon>
   <subtitle>记录生（sha）活（dou）点（hui）滴（xie）</subtitle>
-  <link href="https://www.phakel.cn/atom.xml" rel="self"/>
+  <link href="https://www.phakel.com/atom.xml" rel="self"/>
   
-  <link href="https://www.phakel.cn/"/>
+  <link href="https://www.phakel.com/"/>
   <updated>2022-04-07T07:05:02.829Z</updated>
-  <id>https://www.phakel.cn/</id>
+  <id>https://www.phakel.com/</id>
   
   <author>
     <name>EvanLuo42</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Django API请求次数限制</title>
-    <link href="https://www.phakel.cn/2022-04-07/abae205/"/>
-    <id>https://www.phakel.cn/2022-04-07/abae205/</id>
+    <link href="https://www.phakel.com/2022-04-07/abae205/"/>
+    <id>https://www.phakel.com/2022-04-07/abae205/</id>
     <published>2022-04-07T02:00:45.000Z</published>
     <updated>2022-04-07T07:05:02.829Z</updated>
     
@@ -28,19 +28,19 @@
     
     
     
-    <category term="Tech" scheme="https://www.phakel.cn/categories/Tech/"/>
+    <category term="Tech" scheme="https://www.phakel.com/categories/Tech/"/>
     
     
-    <category term="network" scheme="https://www.phakel.cn/tags/network/"/>
+    <category term="network" scheme="https://www.phakel.com/tags/network/"/>
     
-    <category term="django" scheme="https://www.phakel.cn/tags/django/"/>
+    <category term="django" scheme="https://www.phakel.com/tags/django/"/>
     
   </entry>
   
   <entry>
     <title>Django 2FA绕过</title>
-    <link href="https://www.phakel.cn/2022-04-06/5a48ee73/"/>
-    <id>https://www.phakel.cn/2022-04-06/5a48ee73/</id>
+    <link href="https://www.phakel.com/2022-04-06/5a48ee73/"/>
+    <id>https://www.phakel.com/2022-04-06/5a48ee73/</id>
     <published>2022-04-06T02:31:12.000Z</published>
     <updated>2022-04-06T02:38:10.058Z</updated>
     
@@ -49,17 +49,17 @@
     
     
     
-    <category term="Tech" scheme="https://www.phakel.cn/categories/Tech/"/>
+    <category term="Tech" scheme="https://www.phakel.com/categories/Tech/"/>
     
     
-    <category term="django" scheme="https://www.phakel.cn/tags/django/"/>
+    <category term="django" scheme="https://www.phakel.com/tags/django/"/>
     
   </entry>
   
   <entry>
     <title>Django 连接腾讯云COS</title>
-    <link href="https://www.phakel.cn/2022-03-29/8b937cbb/"/>
-    <id>https://www.phakel.cn/2022-03-29/8b937cbb/</id>
+    <link href="https://www.phakel.com/2022-03-29/8b937cbb/"/>
+    <id>https://www.phakel.com/2022-03-29/8b937cbb/</id>
     <published>2022-03-29T02:38:10.000Z</published>
     <updated>2022-03-29T03:04:01.951Z</updated>
     
@@ -68,21 +68,21 @@
     
     
     
-    <category term="Tech" scheme="https://www.phakel.cn/categories/Tech/"/>
+    <category term="Tech" scheme="https://www.phakel.com/categories/Tech/"/>
     
     
-    <category term="network" scheme="https://www.phakel.cn/tags/network/"/>
+    <category term="network" scheme="https://www.phakel.com/tags/network/"/>
     
-    <category term="django" scheme="https://www.phakel.cn/tags/django/"/>
+    <category term="django" scheme="https://www.phakel.com/tags/django/"/>
     
-    <category term="python" scheme="https://www.phakel.cn/tags/python/"/>
+    <category term="python" scheme="https://www.phakel.com/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>关于我使用Apple的这一年</title>
-    <link href="https://www.phakel.cn/2022-01-14/4b60da34/"/>
-    <id>https://www.phakel.cn/2022-01-14/4b60da34/</id>
+    <link href="https://www.phakel.com/2022-01-14/4b60da34/"/>
+    <id>https://www.phakel.com/2022-01-14/4b60da34/</id>
     <published>2022-01-14T10:27:55.000Z</published>
     <updated>2022-03-29T03:02:14.263Z</updated>
     
@@ -91,18 +91,18 @@
     
     
     
-    <category term="Tech" scheme="https://www.phakel.cn/categories/Tech/"/>
+    <category term="Tech" scheme="https://www.phakel.com/categories/Tech/"/>
     
     
-    <category term="apple" scheme="https://www.phakel.cn/tags/apple/"/>
+    <category term="apple" scheme="https://www.phakel.com/tags/apple/"/>
     
-    <category term="tech" scheme="https://www.phakel.cn/tags/tech/"/>
+    <category term="tech" scheme="https://www.phakel.com/tags/tech/"/>
     
-    <category term="iphone" scheme="https://www.phakel.cn/tags/iphone/"/>
+    <category term="iphone" scheme="https://www.phakel.com/tags/iphone/"/>
     
-    <category term="ipad" scheme="https://www.phakel.cn/tags/ipad/"/>
+    <category term="ipad" scheme="https://www.phakel.com/tags/ipad/"/>
     
-    <category term="macbook" scheme="https://www.phakel.cn/tags/macbook/"/>
+    <category term="macbook" scheme="https://www.phakel.com/tags/macbook/"/>
     
   </entry>
   

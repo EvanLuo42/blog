@@ -39,7 +39,7 @@ export function NavMenu({ className }: { className?: string }) {
   function items() {
     return routes.map((route) => (
       <>
-        <NavigationMenuItem>
+        <NavigationMenuItem key={route.name}>
           <a href={route.path}>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               {route.name}
@@ -60,9 +60,11 @@ export function NavMenu({ className }: { className?: string }) {
 }
 
 export function NavDropdown({ className }: { className?: string }) {
+  const [open, setOpen] = React.useState(false);
+
   function items() {
     return routes.map((route) => (
-      <DropdownMenuItem>
+      <DropdownMenuItem key={route.name} className="w-full">
         <a href={route.path}>
           {route.name}
         </a>
@@ -71,15 +73,16 @@ export function NavDropdown({ className }: { className?: string }) {
   }
 
   return (
-    <div className={className}>
-      <DropdownMenu>
+    <div className={className} onClick={() => {setOpen(!open)}}>
+      <DropdownMenu open={open}>
         <DropdownMenuTrigger asChild>
           <Button variant="outline" size="icon">
             <AlignRight className="h-[1.2rem] w-[1.2rem]"/>
             <span className="sr-only">Navigate to Page</span>
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent align="end">
+        <DropdownMenuContent align="end" ref={(ref) =>
+          ref?.addEventListener("touchend", (e) => e.preventDefault())}>
           {items()}
         </DropdownMenuContent>
       </DropdownMenu>

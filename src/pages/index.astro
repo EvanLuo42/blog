@@ -1,21 +1,4 @@
----
-import Layout from '../layouts/Layout.astro';
-import IntroCard from "../components/IntroCard.astro";
-import PostPreviewCard from "../components/PostPreviewCard.astro";
-
-import * as test from "@/contents/intro.mdx"
-
-const categories = [
-  "frontend"
-]
----
-
-<Layout title="EvanLuo42's Blog">
-    <div class="flex flex-col space-y-5 pl-7 pr-7 lg:pl-32 lg:pr-32 xl:pl-60 xl:pr-60 pt-5">
-        <IntroCard/>
-        <h3 class="text-2xl font-bold">Posts</h3>
-        <PostPreviewCard title="Test Title" date="May 27th, 2024" categories={categories}>
-            <test.Content/>
-        </PostPreviewCard>
-    </div>
-</Layout>
+<meta
+        http-equiv="refresh"
+        content={ `0; url=/1` }
+/>

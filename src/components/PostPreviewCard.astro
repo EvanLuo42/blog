@@ -26,12 +26,12 @@ const props = Astro.props
     </CardHeader>
     <CardContent>
         <Prose>
-            <div class="line-clamp-2 prose-img:hidden">
+            <div class="line-clamp-2 prose-img:hidden prose-p:mb-0">
                 <slot/>
             </div>
         </Prose>
     </CardContent>
-    <CardFooter className="flex items-center">
-        {props.categories.map((category) => (<Badge>{category}</Badge>))} &nbsp · &nbsp  <span class="text-sm text-muted-foreground">{props.date}</span>
+    <CardFooter className="flex items-center space-x-1 flex-wrap">
+        {props.categories.map((category) => (<Badge>{category}</Badge>))} &nbsp ·  <span class="text-sm text-muted-foreground">{props.date}</span>
     </CardFooter>
 </Card>

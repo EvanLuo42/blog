@@ -22,7 +22,7 @@ const { year, months }: ArchiveEntryProps = Astro.props
     <h3 class="font-bold text-2xl">{year}</h3>
     {
       months.map(month => (
-        <div class="xl:flex xl:flex-wrap xl:space-x-52 space-y-2">
+        <div class="space-y-2">
             <h4 class="text-xl font-bold">{month.month}</h4>
             <div class="flex flex-col w-full space-y-2">
                 {

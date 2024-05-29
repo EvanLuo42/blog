@@ -38,15 +38,13 @@ export function NavMenu({ className }: { className?: string }) {
 
   function items() {
     return routes.map((route) => (
-      <>
-        <NavigationMenuItem key={route.name}>
-          <a href={route.path}>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              {route.name}
-            </NavigationMenuLink>
-          </a>
-        </NavigationMenuItem>
-      </>
+      <NavigationMenuItem key={route.name}>
+        <a href={route.path}>
+          <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            {route.name}
+          </NavigationMenuLink>
+        </a>
+      </NavigationMenuItem>
     ))
   }
 

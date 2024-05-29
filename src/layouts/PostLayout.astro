@@ -58,6 +58,21 @@ import '@/styles/globals.css'
       href={`${Astro.site}feed.xml`}
     />
     <title>{frontmatter.title}</title>
+    <script src="https://giscus.app/client.js"
+            data-repo="EvanLuo42/blog"
+            data-repo-id="R_kgDOKahJHQ"
+            data-category="General"
+            data-category-id="DIC_kwDOKahJHc4CfsGE"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="preferred_color_scheme"
+            data-lang="en"
+            crossorigin="anonymous"
+            async>
+    </script>
 </head>
 <body>
     <header class="top-0 w-full">
@@ -80,6 +95,7 @@ import '@/styles/globals.css'
                 <h1>{frontmatter.title}</h1>
                 <slot />
             </Prose>
+            <div class="giscus"></div>
         </div>
     </main>
     <footer>

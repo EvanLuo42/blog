@@ -14,13 +14,13 @@ import {
 
 import * as test from "@/contents/intro.mdx"
 import {GetStaticPaths, InferGetStaticPropsType, type Page} from "astro";
+import * as console from "node:console";
 
 export const getStaticPaths = (async ({ paginate }) => {
     const posts = await Astro.glob("../pages/post/*.md")
     return paginate(posts, { pageSize: 10 })
 }) satisfies GetStaticPaths
 
-type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 const { page }: { page: Page } = Astro.props
 ---
 
@@ -56,7 +56,7 @@ const { page }: { page: Page } = Astro.props
                   : null
                 }
                 {
-                    [...Array(page.total).keys()].map((x) => (x + 1) === page.currentPage ? (
+                    [...Array(page.lastPage).keys()].map((x) => (x + 1) === page.currentPage ? (
                       <PaginationItem>
                           <PaginationLink href={"/" + (x + 1)} isActive>
                               {x + 1}

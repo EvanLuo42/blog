@@ -11,12 +11,7 @@ import {Button} from "@/components/ui/button"
 
 import {BlueSkyIcon} from "./BlueSkyIcon";
 
-import {Github, Mail} from "lucide-react";
-
-interface FrontMatter {
-    title: string
-}
-
+import {Github, Mail, Rss} from "lucide-react";
 import * as intro from "@/contents/intro.mdx"
 import Prose from "./Prose.astro";
 ---
@@ -45,6 +40,11 @@ import Prose from "./Prose.astro";
             <a href="https://bsky.app/profile/el42.cc">
                 <Button size="icon">
                     <BlueSkyIcon/>
+                </Button>
+            </a>
+            <a href="/feed.xml">
+                <Button size="icon">
+                    <Rss/>
                 </Button>
             </a>
         </div>

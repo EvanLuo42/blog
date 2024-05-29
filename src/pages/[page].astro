@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/pagination"
 
 import * as test from "@/contents/intro.mdx"
-import {GetStaticPaths, InferGetStaticPropsType, type Page} from "astro";
+import {GetStaticPaths, type Page} from "astro";
 
 export const getStaticPaths = (async ({ paginate }) => {
     const posts = await Astro.glob("../pages/post/*.md")

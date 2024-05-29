@@ -34,7 +34,7 @@ const props = Astro.props
             </Prose>
         </CardContent>
         <CardFooter className="flex items-center space-x-1 flex-wrap">
-            {props.categories.map((category) => (<Badge>{category}</Badge>))} &nbsp ·  <span class="text-sm text-muted-foreground">{props.date}</span>
+            {props.categories.map((category) => (<a href={"/categories/" + category}><Badge>{category}</Badge></a>))} &nbsp ·  <span class="text-sm text-muted-foreground">{props.date}</span>
         </CardFooter>
     </Card>
 </a>

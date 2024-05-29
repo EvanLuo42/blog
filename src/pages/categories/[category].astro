@@ -1,0 +1,52 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ArchiveEntry from "../../components/ArchiveEntry.astro";
+import PostPreviewCard from "../../components/PostPreviewCard.astro";
+
+export async function getStaticPaths() {
+    const posts = await Astro.glob("../post/*.md")
+    const categories = []
+    posts.forEach(post => {
+        post.frontmatter.categories.forEach(cate => {
+        if (categories.some(c => c === cate)) return
+        categories.push({
+            params: { category: cate }
+        })
+        })
+    })
+    return categories
+}
+
+const { category } = Astro.params
+const posts = await Astro.glob("../post/*.md")
+---
+
+<Layout title="EvanLuo42's Blog">
+    <div class="flex flex-col space-y-5 pl-7 pr-7 lg:pl-32 lg:pr-32 xl:pl-60 xl:pr-60 pt-5">
+        <h2 class="text-4xl font-bold">Category: {category}</h2>
+
+        {
+          posts
+            .filter(post =>
+              post.frontmatter.categories.some(cate => cate === category))
+            .map(post => (
+                    <PostPreviewCard
+                            path={post.url}
+                            title={post.frontmatter.title}
+                            date={new Date(post.frontmatter.date).toLocaleString(undefined, {
+                              year: 'numeric',
+                              month: 'long',
+                              day: 'numeric'
+                            } as Intl.DateTimeFormatOptions)}
+                            categories={post.frontmatter.categories}
+                    >
+                        <Fragment set:html={
+                          post.compiledContent()
+                            .replace(/<h[1-6][^>]*>.*?<\/h[1-6]>/gis, '')
+                            .replace(/<img\b[^>]*>/gi, '')
+                        } />
+                    </PostPreviewCard>
+            ))
+        }
+    </div>
+</Layout>

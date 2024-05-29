@@ -15,7 +15,8 @@ export type Result = {
         month: string,
         posts: {
             title: string,
-            date: Date
+            date: Date,
+            url: string
         }[]
     }[]
 }[]
@@ -46,7 +47,8 @@ posts.forEach((post) => {
     }
     months.find(m => m.month === month).posts.push({
         title: post.frontmatter.title,
-        date: new Date(post.frontmatter.date)
+        date: new Date(post.frontmatter.date),
+        url: post.url
     })
 })
 ---

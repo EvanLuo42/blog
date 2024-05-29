@@ -14,7 +14,6 @@ import {
 
 import * as test from "@/contents/intro.mdx"
 import {GetStaticPaths, InferGetStaticPropsType, type Page} from "astro";
-import * as console from "node:console";
 
 export const getStaticPaths = (async ({ paginate }) => {
     const posts = await Astro.glob("../pages/post/*.md")

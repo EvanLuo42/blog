@@ -5,7 +5,7 @@ export function Footer() {
     <>
       <Separator></Separator>
       <div className="bottom-0 flex justify-center items-center p-4">
-        <p>©Copyright ZiYun Luo Evan. All rights reserved.</p>
+        <p>©Copyright EvanLuo42. All rights reserved.</p>
       </div>
     </>
   )

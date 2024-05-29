@@ -25,8 +25,8 @@ const routes = [
     path: "/archives"
   },
   {
-    name: "Tags",
-    path: "/tags"
+    name: "Categories",
+    path: "/categories"
   },
   {
     name: "About",

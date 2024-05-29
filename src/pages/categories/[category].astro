@@ -29,6 +29,7 @@ const posts = await Astro.glob("../post/*.md")
           posts
             .filter(post =>
               post.frontmatter.categories.some(cate => cate === category))
+            .sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime())
             .map(post => (
                     <PostPreviewCard
                             path={post.url}

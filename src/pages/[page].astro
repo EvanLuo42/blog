@@ -27,7 +27,7 @@ const { page }: { page: Page } = Astro.props
     <div class="flex flex-col space-y-5 pl-7 pr-7 lg:pl-32 lg:pr-32 xl:pl-60 xl:pr-60 pt-5">
         <IntroCard/>
         <h3 class="text-2xl font-bold">Posts</h3>
-        {page.data.map(( post ) => (
+        {page.data.sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()).map(( post ) => (
           <PostPreviewCard
             path={post.url}
             title={post.frontmatter.title}

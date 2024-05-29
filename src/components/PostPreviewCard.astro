@@ -14,24 +14,27 @@ import Prose from "./Prose.astro";
 interface Props {
     title: string,
     date: string,
-    categories: Array<string>
+    categories: Array<string>,
+    path: string
 }
 
 const props = Astro.props
 ---
 
-<Card>
-    <CardHeader className="pb-0">
-        <CardTitle>{props.title}</CardTitle>
-    </CardHeader>
-    <CardContent>
-        <Prose>
-            <div class="line-clamp-2 prose-img:hidden prose-p:mb-0">
-                <slot/>
-            </div>
-        </Prose>
-    </CardContent>
-    <CardFooter className="flex items-center space-x-1 flex-wrap">
-        {props.categories.map((category) => (<Badge>{category}</Badge>))} &nbsp ·  <span class="text-sm text-muted-foreground">{props.date}</span>
-    </CardFooter>
-</Card>
+<a href={props.path}>
+    <Card className="hover:border-primary hover:cursor-pointer">
+        <CardHeader className="pb-0">
+            <CardTitle>{props.title}</CardTitle>
+        </CardHeader>
+        <CardContent>
+            <Prose>
+                <div class="line-clamp-2 prose-img:hidden prose-p:mb-0">
+                    <slot/>
+                </div>
+            </Prose>
+        </CardContent>
+        <CardFooter className="flex items-center space-x-1 flex-wrap">
+            {props.categories.map((category) => (<Badge>{category}</Badge>))} &nbsp ·  <span class="text-sm text-muted-foreground">{props.date}</span>
+        </CardFooter>
+    </Card>
+</a>

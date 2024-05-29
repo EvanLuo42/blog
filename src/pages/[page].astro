@@ -13,13 +13,14 @@ import {
 } from "@/components/ui/pagination"
 
 import * as test from "@/contents/intro.mdx"
-import {Page} from "astro";
+import {GetStaticPaths, InferGetStaticPropsType, type Page} from "astro";
 
-export async function getStaticPaths({ paginate }) {
-    const posts = await Astro.glob("../contents/posts/*.mdx")
+export const getStaticPaths = (async ({ paginate }) => {
+    const posts = await Astro.glob("../pages/post/*.mdx")
     return paginate(posts, { pageSize: 10 })
-}
+}) satisfies GetStaticPaths
 
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 const { page }: { page: Page } = Astro.props
 ---
 
@@ -28,7 +29,7 @@ const { page }: { page: Page } = Astro.props
         <IntroCard/>
         <h3 class="text-2xl font-bold">Posts</h3>
         {page.data.map(( post ) => (
-          <PostPreviewCard title={post.frontmatter.title} date={post.frontmatter.date} categories={post.frontmatter.categories}>
+          <PostPreviewCard path={post.url} title={post.frontmatter.title} date={post.frontmatter.date} categories={post.frontmatter.categories}>
               <post.Content/>
           </PostPreviewCard>
         ))}

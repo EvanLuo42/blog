@@ -29,7 +29,16 @@ const { page }: { page: Page } = Astro.props
         <IntroCard/>
         <h3 class="text-2xl font-bold">Posts</h3>
         {page.data.map(( post ) => (
-          <PostPreviewCard path={post.url} title={post.frontmatter.title} date={post.frontmatter.date} categories={post.frontmatter.categories}>
+          <PostPreviewCard
+            path={post.url}
+            title={post.frontmatter.title}
+            date={new Date(post.frontmatter.date).toLocaleString(undefined, {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            } as Intl.DateTimeFormatOptions)}
+            categories={post.frontmatter.categories}
+          >
               <Fragment set:html={
                   post.compiledContent()
                     .replace(/<h[1-6][^>]*>.*?<\/h[1-6]>/gis, '')

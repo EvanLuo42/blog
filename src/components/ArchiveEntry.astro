@@ -1,0 +1,48 @@
+---
+import {Card, CardDescription, CardHeader, CardTitle} from "./ui/card";
+import {Separator} from "./ui/separator";
+import type Result from "@/pages/archives/index.astro"
+import {Astro} from "astro/env";
+
+interface ArchiveEntryProps {
+  year: number,
+  months: {
+    month: string,
+    posts: {
+        title: string,
+        date: Date
+    }[]
+  }[]
+}
+
+const { year, months }: ArchiveEntryProps = Astro.props
+---
+<div class="space-y-5">
+    <h3 class="font-bold text-2xl">{year}</h3>
+    {
+      months.map(month => (
+        <div class="xl:flex xl:flex-wrap xl:space-x-52 space-y-2">
+            <h4 class="text-xl font-bold">{month.month}</h4>
+            <div class="flex flex-col w-full space-y-2">
+                {
+                    month.posts.map(post => (
+                      <Card>
+                          <CardHeader>
+                              <CardTitle>{post.title}</CardTitle>
+                              <CardDescription>
+                                  {post.date.toLocaleString(undefined, {
+                                      year: 'numeric',
+                                      month: 'long',
+                                      day: 'numeric'
+                                  } as Intl.DateTimeFormatOptions)}
+                              </CardDescription>
+                          </CardHeader>
+                      </Card>
+                    ))
+                }
+            </div>
+        </div>
+      ))
+    }
+    <Separator/>
+</div>

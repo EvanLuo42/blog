@@ -1,0 +1,61 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+import {
+    Card,
+    CardHeader,
+    CardTitle,
+    CardDescription
+} from "../../components/ui/card";
+import ArchiveEntry from "../../components/ArchiveEntry.astro";
+
+export type Result = {
+    year: number,
+    months: {
+        month: string,
+        posts: {
+            title: string,
+            date: Date
+        }[]
+    }[]
+}[]
+
+const posts = await Astro.glob("../post/*.md")
+const results: Result = []
+posts.forEach((post) => {
+    const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    const date = new Date(post.frontmatter.date)
+    const year = date.getFullYear()
+    const month = monthNames[date.getMonth()]
+    let yearEntry = results.find(entry => entry.year === year);
+
+    if (!yearEntry) {
+        yearEntry = { year, months: [] }
+        results.push(yearEntry)
+    }
+
+    const months = results
+      .find(entry => entry.year === year)
+      .months
+    let monthEntry = months
+      .find(m => m.month === month)
+
+    if (!monthEntry) {
+        monthEntry = { month, posts: [] }
+        months.push(monthEntry)
+    }
+    months.find(m => m.month === month).posts.push({
+        title: post.frontmatter.title,
+        date: new Date(post.frontmatter.date)
+    })
+})
+---
+<Layout title="EvanLuo42's Blog">
+    <div class="flex flex-col space-y-5 pl-7 pr-7 lg:pl-32 lg:pr-32 xl:pl-60 xl:pr-60 pt-5">
+        <h2 class="text-4xl font-bold">Archives</h2>
+
+        {results.map((result) => (
+          <ArchiveEntry year={result.year} months={result.months}/>
+        ))}
+    </div>
+</Layout>

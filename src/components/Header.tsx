@@ -6,7 +6,7 @@ export function Header() {
   return (
     <>
       <div className="flex flex-row items-center space-x-10 p-3">
-        <h1 className="ml-6 text-lg xl:text-xl font-bold">EvanLuo42's Blog</h1>
+        <a href="/"><h1 className="ml-6 text-lg xl:text-xl font-bold">EvanLuo42's Blog</h1></a>
         <div>
           <NavMenu className="hidden md:block"/>
         </div>

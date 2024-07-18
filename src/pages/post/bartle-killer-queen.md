@@ -7,6 +7,8 @@ categories:
     - review
 ---
 
+![Killer Queen](https://killerqueenarcade.com/img/howToPlay/teams.png)
+
 ## Introduction
 
 It seems to be rare to find a game that everyone loves, but at least game designers are trying their best to create games that fit the majority's taste. "Killer Queen" is one of the arcade games that has done this job remarkably well. No formal research has been done, but at least in our small classroom, almost everyone who played "Killer Queen" gave it a thumbs up, and many players go to play it immediately during breaks. Based on Bartle's taxonomy of player types, I personally think that the magic of "Killer Queen" comes from its thoughtful care for each type of player.
